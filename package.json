@@ -1,0 +1,44 @@
+{
+  "name": "at-tarteel-academy-backend",
+  "version": "1.0.0",
+  "description": "Backend for AT Tarteel Academy - Quran Learning Platform",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "production": "set NODE_ENV=production&& node server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "quran",
+    "academy",
+    "education",
+    "learning",
+    "backend",
+    "api"
+  ],
+  "author": "AT Tarteel Academy",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-rate-limit": "^6.11.2",
+    "helmet": "^8.1.0",
+    "joi": "^18.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.8.7",
+    "morgan": "^1.10.1",
+    "nodemailer": "^7.0.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
